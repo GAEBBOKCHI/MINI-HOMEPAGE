@@ -1,0 +1,39 @@
+.photolist{
+    overflow: auto;
+    height: 512px;
+}
+
+.photo{
+    font-family: 'NeoDunggeunmo';
+}
+
+.photo_title{
+    background-color: rgb(189, 189, 189);
+    height: 35px;
+    vertical-align: middle;
+    line-height: 35px;
+    padding: 0px 15px;
+}
+
+.photo_box{
+    width: 510px;
+    padding: 15px;
+}
+
+.photo_post{
+    padding: 0px 15px 35px 15px;
+    font-size: 14px;
+}
+
+.cold{
+    color: blue;
+}
+
+.warm{
+    color: red;
+}
+
+.insignificant{
+    color: rgb(252, 134, 154);
+    font-size: 16px;
+}

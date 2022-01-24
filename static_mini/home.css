@@ -1,0 +1,108 @@
+.update{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .UpdateTitle{
+    flex: 0.25;
+    font-family: 'KOTRA_BOLD-Bold';
+    padding-top: 7px;
+    color: rgb(41, 130, 189);
+  }
+  
+  .line1{
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    color: black;
+  }
+  
+  .contents{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .contents_left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+  }
+  
+  .photobook{
+    display: inline-block;
+    background-color: rgb(255, 77, 53);
+    color: white;
+    padding: 0px 7px;
+    margin: 2px 0px;
+    border-radius: 3px;
+  }
+  
+  .board{
+    display: inline-block;
+    background-color: rgb(81, 84, 255);
+    color: white;
+    padding: 0px 7px;
+    margin: 2px 0px;
+    border-radius: 3px;
+  }
+  
+  .contents_right{
+    flex: 1;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+  }
+  
+  .table1{
+    display: flex;
+    flex-direction: row;
+    border-bottom: dashed black 1px;
+  }
+  
+  .table1_1{
+    flex: 1;
+  }
+  
+  .table1_2{
+    flex: 1;
+  }
+  
+  .table2{
+    display: flex;
+    flex-direction: row;
+    border-bottom: dashed black 1px;
+  }
+  
+  .table2_1{
+    flex: 1;
+  }
+  
+  .table2_2{
+    flex: 1;
+  }
+  
+  .num{
+    font-family: 'NeoDunggeunmo';
+    color: rgb(62, 62, 255);
+  }
+  
+  .line2{
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    border-top: dashed 1px;
+  }
+  
+  .miniroom{
+    flex: 1;
+  }
+  
+  .miniroomTitle{
+    font-family: 'KOTRA_BOLD-Bold';
+    padding-top: 7px;
+    color: rgb(41, 130, 189);
+  }

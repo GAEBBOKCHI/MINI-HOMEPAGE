@@ -1,0 +1,104 @@
+.date{
+    height: 3rem;
+    border: solid grey 1px ;
+    display: flex;
+    flex-direction: row;
+    font-family: 'NeoDunggeunmo';
+}
+
+.today_date{
+    flex: 0.15;
+    text-align: center;
+    color: rgb(72, 137, 197);
+    font-size: 17px;
+}
+
+.calender{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sat{
+    color: blue;
+    margin-left: 10px;
+}
+
+.sun{
+    color: red;
+    margin-left: 10px;
+}
+
+.weekday{
+    color: gray;
+    margin-left: 10px;
+}
+
+.diary_box{
+    margin-top: 15px;
+    overflow: auto;
+    height: 450px;
+}
+
+.diary_box_detail{
+    height: 270px;
+    border: solid grey 1px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.diary_title{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-family: 'NeoDunggeunmo';
+    color: rgb(72, 137, 197);
+    font-size: 16px;
+}
+
+.diary_content{
+    position: absolute;
+    top: 70px;
+}
+
+p{
+    width: 515px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'KyoboHand';
+    font-size: 14px;
+}
+
+.cold{
+    color: blue;
+}
+
+.warm{
+    color: red;
+}
+
+.insignificant{
+    color: rgb(252, 134, 154);
+    font-size: 16px;
+}
+
+.secret_diary{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    margin: 0 auto;
+    height: 50px;
+    border: none;
+    font-family: 'NeoDunggeunmo';
+    font-size: 14px;
+    margin: auto; 
+    display: block;  
+}
+
+.secret_diary:hover{
+    background-color: rgb(56, 158, 133);
+    border: none;
+}
+
+#secret_box {
+    display: none;
+}
